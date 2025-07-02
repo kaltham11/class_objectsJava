@@ -38,3 +38,16 @@ Sleeping
 Moving
 Playing
 
+4- Screen:
+State:
+size
+ON
+OFF
+brightness
+
+Behavior:
+brightness increase
+brightness decrease
+Turn ON
+Turn OFF
+
