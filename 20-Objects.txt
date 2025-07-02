@@ -154,4 +154,18 @@ changing mode
 brightness increase
 brightness decrease
 
+12- Refrigerator:
+State:
+ON
+OFF
+Brand
+current Temprture
+
+Behavior
+Turn ON
+Turn OFF
+set Temprture
+open door
+close door 
+
 
