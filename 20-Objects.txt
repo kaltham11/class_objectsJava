@@ -138,4 +138,20 @@ traking steps
 measure heat rate
 changing mode
 
+11-Laptop
+State:
+ON 
+OFF
+battery level
+current Mode
+brightness level
+
+Behavior:
+Turn ON
+Turn OFF
+charging battery
+changing mode
+brightness increase
+brightness decrease
+
 
