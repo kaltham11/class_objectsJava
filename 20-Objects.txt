@@ -106,4 +106,20 @@ Fail
 Pass
 display info
 
+9- AC
+State:
+ON
+OFF
+current Temprture
+current Fan speed
+current Mode
+
+Behavior:
+Turn ON
+Turn OFF
+changing temprture
+changing fan 
+changing Mode
+
+
 
