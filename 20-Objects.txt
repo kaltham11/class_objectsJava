@@ -24,3 +24,17 @@ Eating
 Sleeping
 Moving
 Playing
+
+3- Person
+State:
+Name
+age
+Mode
+
+Behavior:
+talking
+Eating
+Sleeping
+Moving
+Playing
+
