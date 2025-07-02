@@ -78,3 +78,20 @@ start washing
 start Rinsing
 start Spinning 
 
+7- SmartPhone:
+State:
+brand
+ON 
+OFF
+Type
+current Mode 
+battery level
+
+Behavior:
+changing Mode 
+switch ON 
+switch OFF
+make call
+charging 
+
+
