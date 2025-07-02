@@ -65,3 +65,16 @@ Volume increase
 Volume decrease
 changing battery
 
+6- Washing Machine
+State:
+Start 
+Stop
+cycleMode 
+
+Behavior:
+Turn Start
+Turn Stop
+start washing
+start Rinsing
+start Spinning 
+
