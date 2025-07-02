@@ -189,3 +189,13 @@ Turn ON
 Turn OFF
 chaning color
 
+15-PEN
+State:
+ink level
+Color
+
+Behavior:
+Write
+checking ink
+
+
