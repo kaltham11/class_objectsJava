@@ -236,3 +236,13 @@ Behavior:
 clean 
 put stuff 
 
+19-Chair
+State:
+color
+size 
+Type
+
+Behavior:
+clean
+sit 
+
