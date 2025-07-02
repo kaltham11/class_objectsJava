@@ -11,3 +11,16 @@ stop Engine
 press Brake
 press gas
 changing gear
+
+2- Animal
+State:
+Name
+Type 
+Hungry level
+Mode
+
+Behavior:
+Eating
+Sleeping
+Moving
+Playing
