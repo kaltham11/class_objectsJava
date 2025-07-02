@@ -246,3 +246,14 @@ Behavior:
 clean
 sit 
 
+20-Bank Account
+State:
+name 
+account number
+balance
+
+Behavior:
+deposit
+withdraw
+check balance
+
