@@ -121,5 +121,21 @@ changing temprture
 changing fan 
 changing Mode
 
+10-Smart Watch
+State:
+ON 
+OFF
+battery level
+step count
+heart rate
+current Mode
+
+Behavior:
+Turn ON
+Turn OFF
+charging battery
+traking steps
+measure heat rate
+changing mode
 
 
