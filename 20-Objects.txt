@@ -178,4 +178,14 @@ open
 close
 clean
 
+14-Light
+State:
+ON 
+OFF
+Current color
+
+Behavior:
+Turn ON 
+Turn OFF
+chaning color
 
