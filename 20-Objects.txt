@@ -198,4 +198,18 @@ Behavior:
 Write
 checking ink
 
+16-Camera
+State:
+ON 
+OFF
+battery level
+
+Behavior:
+Turn ON 
+Turn OFF
+Taking photo
+recording video
+charging battery
+
+
 
