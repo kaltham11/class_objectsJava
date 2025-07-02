@@ -94,4 +94,16 @@ switch OFF
 make call
 charging 
 
+8- Student:
+State:
+Name
+age
+GPA
+current course
+
+Behavior:
+Fail
+Pass
+display info
+
 
