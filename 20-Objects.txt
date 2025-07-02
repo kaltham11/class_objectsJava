@@ -1,0 +1,13 @@
+1- Car 
+State:
+Engine Mode
+driving control
+current gear
+current speed
+
+Bahavior:
+start Engine
+stop Engine
+press Brake
+press gas
+changing gear
