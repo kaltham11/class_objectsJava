@@ -226,4 +226,13 @@ refill water
 refill beans
 brew coffee
 
+18-Table
+State:
+color
+size 
+Type
+
+Behavior:
+clean 
+put stuff 
 
