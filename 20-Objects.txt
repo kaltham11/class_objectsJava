@@ -212,4 +212,18 @@ recording video
 charging battery
 
 
+17-Coffe Machine
+State:
+ON 
+OFF
+water level
+coffee beans level
+
+Behavior:
+Turn ON 
+Turn OFF
+refill water
+refill beans
+brew coffee
+
 
