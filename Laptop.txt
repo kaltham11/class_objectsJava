@@ -1,0 +1,56 @@
+public class Laptop {
+    boolean on;
+    boolean off;
+    Integer batteryLevel;
+    String currentMode;
+    String brightnessLevel;
+
+    public void turnOn() {
+        if (on) {
+            System.out.println("The Laptop is ON");
+        } else {
+            on = true;
+            System.out.println("Turn Laptop ON");
+        }
+
+    }
+
+    public void turnOff() {
+        if (!off) {
+            System.out.println("The Laptop is OFF");
+        } else {
+            off = false;
+            System.out.println("Turn Laptop OFF");
+        }
+    }
+
+    public void changingBattery() {
+        if (batteryLevel <= 20) {
+            System.out.println("please charging your Laptop");
+        } else {
+            System.out.println("The Laptop charging is\t" + batteryLevel);
+        }
+    }
+    public void changingMode () {
+        if(currentMode.equals("silent")){
+            System.out.println("The Laptop is on Silent mode Now");
+        }
+        else if (currentMode.equals("flight")){
+            System.out.println("The Laptop is on flight mode Now");
+        }
+        else{
+            System.out.println("The Laptop is on Normal mode Now");
+        }
+    }
+    public void brightnessIncrease() {
+        if(brightnessLevel.equals("High")){
+            System.out.println("The brightness is High");
+        }
+    }
+    public void brightnessDecrease(){
+        if(brightnessLevel.equals("LOW")){
+            System.out.println("The brightness is LOW");
+        }
+
+    }
+}
