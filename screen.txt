@@ -1,0 +1,38 @@
+public class Screen {
+
+    boolean on;
+    boolean off;
+    //float size;
+    String brightness;
+
+    public void turnOn() {
+        if (on){
+        System.out.println("The light is ON");}
+        else{
+            on=true;
+            System.out.println("Turn Light ON");
+        }
+
+    }
+    public void turnOff() {
+        if (!off){
+            System.out.println("The light is OFF");}
+        else{
+            off=false;
+            System.out.println("Turn Light OFF");
+        }
+    }
+
+    public void brightnessIncrease() {
+            if(brightness.equals("High")){
+                System.out.println("The brightness is High");
+            }
+    }
+    public void brightnessDecrease(){
+            if(brightness.equals("LOW")){
+                System.out.println("The brightness is LOW");
+            }
+
+    }
+
+}
