@@ -1,0 +1,25 @@
+public class Person {
+    String name="Ahmed";
+    int age=25;
+    String mode="happy";
+    public void disPlayInfo(){
+        System.out.println("The Name of the Person is"+" "+ name);
+        System.out.println("The age of "+ name +" is "+" "+ age);
+    }
+    public void Eating(){
+            System.out.println("Time of eating");}
+
+    public void Sleeping(){
+        System.out.println("This is the time for sleeping");
+    }
+    public void Playing(){
+        if (mode.equals("happy"))
+            System.out.println("Person will play");
+        else if(mode.equals("Sad")){
+            System.out.println("person will not play");
+        }
+    }
+    public void Moving(String Move){
+        System.out.println("The Person is Moving"+ " " + Move);}
+
+}
