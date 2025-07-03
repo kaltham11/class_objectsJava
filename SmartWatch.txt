@@ -1,0 +1,52 @@
+public class SmartWatch {
+    boolean on;
+    boolean off;
+    Integer batteryLevel;
+    Integer stepCount;
+    Integer heartRate;
+    String currentMode;
+    public void turnOn() {
+        if (on){
+            System.out.println("The AC is ON");}
+        else{
+            on=true;
+            System.out.println("Turn AC ON");
+        }
+
+    }
+    public void turnOff() {
+        if (!off){
+            System.out.println("The AC is OFF");}
+        else{
+            off=false;
+            System.out.println("Turn AC OFF");
+        }
+    }
+    public void trackingSteps(){
+        System.out.println("The step count is"+" "+ stepCount);
+    }
+    public void measureHeatRate(){
+        System.out.println("The measure heat rate is"+" "+ heartRate);
+    }
+    public void changingMode () {
+        if(currentMode.equals("sleeping")){
+            System.out.println("The Smart Phone is on sleeping Mode Now");
+        }
+        else if (currentMode.equals("rest")){
+            System.out.println("The Smart Phone is on rest mode Now");
+        }
+        else if (currentMode.equals("do not disturb")){
+            System.out.println("The Smart Phone is on do not disturb mode Now");
+        }
+    }
+
+    public void changingBattery(){
+        if(batteryLevel<=20){
+            System.out.println("please charging the smart watch");
+        }
+        else {
+            System.out.println("The The Smart Watch charging is\t" + batteryLevel);
+        }
+
+    }
+}
