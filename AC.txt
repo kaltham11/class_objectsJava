@@ -1,0 +1,37 @@
+public class AC {
+    boolean on;
+    boolean off;
+    Integer currentTemperature;
+    Integer currentFanSpeed;
+    String currentMode;
+
+    public void turnOn() {
+        if (on){
+            System.out.println("The AC is ON");}
+        else{
+            on=true;
+            System.out.println("Turn AC ON");
+        }
+
+    }
+    public void turnOff() {
+        if (!off){
+            System.out.println("The AC is OFF");}
+        else{
+            off=false;
+            System.out.println("Turn AC OFF");
+        }
+    }
+    public void changingTemperature(int newTemp){
+        currentTemperature=newTemp;
+        System.out.println("New Temperature is"+" "+ currentTemperature);
+    }
+    public void changingFan(int newFan){
+        currentFanSpeed=newFan;
+        System.out.println("New Fan Speed is"+" "+ currentFanSpeed);
+    }
+    public void changingMode(String newMode){
+        currentMode=newMode;
+        System.out.println("New Fan Speed is"+" "+ currentMode);
+    }
+}
