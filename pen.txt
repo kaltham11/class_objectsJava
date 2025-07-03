@@ -1,0 +1,17 @@
+public class Pen {
+    float inkLevel;
+    //String color;
+
+    public void checkingInk() {
+        if (inkLevel > 10) {
+            System.out.println("The Ink level for pen is " + " " + inkLevel);
+        }
+        else{
+            System.out.println("Please refill the pen ink");
+        }
+    }
+    public void write(){
+        System.out.println("The pen is writing now");
+    }
+
+}
