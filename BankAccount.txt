@@ -1,0 +1,31 @@
+public class BankAccount {
+
+    String name;
+    String accountNumber;
+    Double balance;
+
+    public void disPlayInfo(){
+        System.out.println("The Name is"+" "+ name);
+        System.out.println("The Account Number is \t "+accountNumber);
+        System.out.println("The balance is =\t"+ balance);
+    }
+
+    public void checkBalance(){
+        System.out.println("The balance is =\t"+ balance);
+    }
+
+    public void deposit(Double amount){
+        balance+= amount;
+        System.out.println(amount +"has been debited. Your available balance is =\t"+ balance);
+    }
+
+    public void withdraw(Double amount) {
+        if (amount <= balance) {
+            balance -= amount;
+            System.out.println(amount + "has been withdrawn. Your available balance is =\t" + balance);
+        } else {
+            System.out.println(amount + "Insufficient process, because your available balance is =\t" + balance);
+        }
+    }
+
+}
