@@ -1,0 +1,22 @@
+public class Chair {
+//       String color;
+//      String size;
+//       String type;
+    boolean isClean=false;
+
+    public void clean(){
+        isClean=true;
+        System.out.println("The chair has been cleaned");
+    }
+
+    public void sit() {
+        if (isClean){
+            System.out.println("The chair is clean, you can sit");
+        }
+        else {
+            System.out.println("The chair is dirty. Please clean it first");
+        }
+    }
+
+}
+
