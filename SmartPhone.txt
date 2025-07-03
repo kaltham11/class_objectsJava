@@ -1,0 +1,52 @@
+public class SmartPhone {
+
+    boolean on;
+    boolean off;
+    String currentMode;
+    String type;
+    String brand;
+    double batteryLevel;
+
+
+    public void switchOn() {
+        if (on){
+            System.out.println("The Smart Phone is ON");}
+        else{
+            on=true;
+            System.out.println("Switch Smart Phone ON");
+        }
+
+    }
+    public void switchOff() {
+        if (!off){
+            System.out.println("The Smart Phone is OFF");}
+        else{
+            off=false;
+            System.out.println("Switch Smart Phone OFF");
+        }
+    }
+
+    public void changingMode () {
+        if(currentMode.equals("silent")){
+            System.out.println("The Smart Phone is on Silent mode Now");
+        }
+        else if (currentMode.equals("flight")){
+            System.out.println("The Smart Phone is on flight mode Now");
+        }
+        else{
+            System.out.println("The Smart Phone is on Normal mode Now");
+        }
+    }
+    public void makeCall() {
+        System.out.println("Phone is making call");
+    }
+    public void changingBattery(){
+        if(batteryLevel<=20){
+            System.out.println("please charging your Smart Phone");
+        }
+        else{System.out.println("The The Smart Phone charging is\t"+ batteryLevel );
+        }
+
+    }
+}
+
