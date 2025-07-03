@@ -1,0 +1,34 @@
+public class Car {
+
+    boolean EngineMode;
+    //boolean drivingControl;
+    int currentGear;
+    float  currentSpeed;
+
+    public void startEngine(){
+        EngineMode= true;
+        System.out.println("Car is working");
+    }
+    public void stopEngine(){
+        EngineMode= false;
+        System.out.println("Car is Stoping");
+    }
+    public void PressBrake(float distanceToObject){
+         System.out.println("Decrease Speed"+" "+ currentSpeed+ "Km/h");
+         if(distanceToObject<=10) {
+             currentSpeed=0;
+             System.out.println("Object is Too close from car");}
+         else{
+                 System.out.println("Warning => Object is near from car");
+             }
+        }
+
+    public void PressGas(){
+        System.out.println("Increase Speed"+" "+ currentSpeed + "Km/h");
+    }
+    public void changingGear(int newGear){
+        currentGear=newGear;
+        System.out.println("New Gear is"+" "+ currentGear);
+    }
+
+}
