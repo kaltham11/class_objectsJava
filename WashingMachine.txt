@@ -1,0 +1,42 @@
+public class WashingMachine {
+
+    boolean start;
+    boolean stop;
+    String cycleMode;
+
+
+    public void turnStart() {
+        if (start){
+            System.out.println("The Washing Machine is starting");}
+        else{
+            start=true;
+            System.out.println("Switch ON Washing Machine");
+        }
+
+    }
+    public void turnStop() {
+        if (!stop){
+            System.out.println("The Washing Machine is stoping");}
+        else{
+            stop=false;
+            System.out.println("Switch OFF Washing Machine");
+        }
+    }
+
+    public void startWashing() {
+        if(cycleMode.equals("Wash")){
+            System.out.println("The Washing Machine is washing Now");
+        }
+    }
+    public void startRinsing() {
+        if(cycleMode.equals("rins")){
+            System.out.println("The Washing Machine is Rinsing Now");
+        }
+    }
+    public void startSpinning() {
+        if(cycleMode.equals("spin")){
+            System.out.println("The Washing Machine is spinning Now");
+        }
+    }
+}
+
