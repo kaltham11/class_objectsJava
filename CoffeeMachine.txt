@@ -1,0 +1,47 @@
+public class CoffeeMachine {
+    boolean on;
+    boolean off;
+    double waterLevel;
+    double coffeeBeansLevel;
+
+    public void turnOn() {
+        if (on) {
+            System.out.println("The Laptop is ON");
+        } else {
+            on = true;
+            System.out.println("Turn Laptop ON");
+        }
+
+    }
+
+    public void turnOff() {
+        if (!off) {
+            System.out.println("The Laptop is OFF");
+        } else {
+            off = false;
+            System.out.println("Turn Laptop OFF");
+        }
+    }
+
+    public void refillWater() {
+        if (waterLevel <=5) {
+            System.out.println("please refill water");
+        } else {
+            System.out.println("The water level is\t" + waterLevel+" "+"ml");
+        }
+    }
+    public void refillBeans() {
+        if (coffeeBeansLevel<=10) {
+            System.out.println("please refill beans");
+        } else {
+            System.out.println("The beans level is\t" + coffeeBeansLevel+" "+"g");
+        }
+    }
+    public void brewCoffee() {
+        if ((coffeeBeansLevel<=10) || (waterLevel <=5)) {
+            System.out.println("please refill beans and water");
+        } else {
+            System.out.println("The coffee machine brew your coffee");
+        }
+    }
+}
