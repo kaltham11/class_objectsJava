@@ -1,0 +1,21 @@
+public class Table {
+    //String color;
+    //String size;
+    //String type;
+    boolean isClean=false;
+
+    public void clean(){
+        isClean=true;
+        System.out.println("The Table has been cleaned");
+    }
+
+    public void putStuff() {
+        if (isClean){
+            System.out.println("The Table is clean, put your stuff");
+    }
+        else {
+            System.out.println("The Table is dirty. Please clean it first");
+        }
+    }
+
+}
