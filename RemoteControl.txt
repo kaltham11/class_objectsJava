@@ -1,0 +1,44 @@
+public class RemoteControl {
+
+    boolean on;
+    boolean off;
+    String volumeLevel;
+    Integer batteryLevel;
+
+    public void turnOn() {
+        if (on){
+            System.out.println("The Remote Control is ON");}
+        else{
+            on=true;
+            System.out.println("Turn Remote Control ON");
+        }
+
+    }
+    public void turnOff() {
+        if (!off){
+            System.out.println("The Remote Control is OFF");}
+        else{
+            off=false;
+            System.out.println("Turn Remote Control OFF");
+        }
+    }
+
+    public void volumeIncrease() {
+        if(volumeLevel.equals("High")){
+            System.out.println("The volume level is High");
+        }
+    }
+    public void volumeDecrease(){
+        if(volumeLevel.equals("LOW")){
+            System.out.println("The volume level is LOW");
+        }
+
+    }
+    public void changingBattery(){
+        if(batteryLevel<=20){
+            System.out.println("please replace the battery");
+        }
+        else{System.out.println("The battery is fine");}
+
+    }
+}
