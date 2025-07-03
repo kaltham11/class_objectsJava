@@ -1,0 +1,35 @@
+public class Light {
+    boolean on;
+    boolean off;
+    String currentColor;
+
+    public void turnOn() {
+        if (on) {
+            System.out.println("The Laptop is ON");
+        } else {
+            on = true;
+            System.out.println("Turn Laptop ON");
+        }
+
+    }
+
+    public void turnOff() {
+        if (!off) {
+            System.out.println("The Laptop is OFF");
+        } else {
+            off = false;
+            System.out.println("Turn Laptop OFF");
+        }
+    }
+    public void changeColor() {
+        if(currentColor.equals("White")){
+            System.out.println("The Light is white");
+        }
+        else if(currentColor.equals("Yellow")){
+            System.out.println("The Light is Yellow");
+        }
+        else if(currentColor.equals("Blue")){
+            System.out.println("The Light is Blue");
+        }
+    }
+}
