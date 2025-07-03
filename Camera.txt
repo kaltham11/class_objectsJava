@@ -1,0 +1,43 @@
+public class Camera {
+    boolean on;
+    boolean off;
+    Integer batteryLevel;
+    Integer cameraState;
+
+    public void turnOn() {
+        if (on) {
+            System.out.println("The Laptop is ON");
+        } else {
+            on = true;
+            System.out.println("Turn Laptop ON");
+        }
+
+    }
+
+    public void turnOff() {
+        if (!off) {
+            System.out.println("The Laptop is OFF");
+        } else {
+            off = false;
+            System.out.println("Turn Laptop OFF");
+        }
+    }
+
+    public void changingBattery() {
+        if (batteryLevel <= 30) {
+            System.out.println("please charging your Laptop");
+        } else {
+            System.out.println("The Laptop charging is\t" + batteryLevel);
+        }
+    }
+
+    public void takingPhoto() {
+        if (cameraState.equals("Taking photo")) {
+            System.out.println("The Camera is Taking Photo Now");
+        }
+        if (cameraState.equals("recording video")) {
+            System.out.println("The Camera is Recording Video Now");
+        }
+
+    }
+}
