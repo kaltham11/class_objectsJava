@@ -1,0 +1,16 @@
+public class Window {
+    String size;
+    String windowState1="Open";
+    String windowState2="Close";
+    String windowState3="Clean";
+
+    public void openWindow(){
+        System.out.println("The Window is"+" "+ windowState1);
+    }
+    public void closeWindow(){
+        System.out.println("The Window is"+" "+ windowState2);
+    }
+    public void cleanWindow(){
+        System.out.println("The Window need to"+" "+ windowState3);
+    }
+}
