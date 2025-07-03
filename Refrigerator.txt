@@ -1,0 +1,37 @@
+public class Refrigerator {
+    boolean on;
+    boolean off;
+    //String brand;
+    Integer currentTemperature;
+    String doors1="Open";
+    String doors2="Close";
+
+    public void turnOn() {
+        if (on){
+            System.out.println("The Remote Control is ON");}
+        else{
+            on=true;
+            System.out.println("Turn Remote Control ON");
+        }
+
+    }
+    public void turnOff() {
+        if (!off){
+            System.out.println("The Remote Control is OFF");}
+        else{
+            off=false;
+            System.out.println("Turn Remote Control OFF");
+        }
+    }
+    public void setTemperature(int newTemp){
+        currentTemperature=newTemp;
+        System.out.println("New Temperature is"+" "+ currentTemperature);
+    }
+    public void openDoor(){
+        System.out.println("The door is"+" "+ doors1);
+    }
+    public void closeDoor(){
+        System.out.println("The door is"+" "+ doors2);
+    }
+
+}
