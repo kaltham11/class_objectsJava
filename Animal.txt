@@ -1,0 +1,32 @@
+public class Animal {
+    String name="cat";
+    int age=10;
+    String type="Persian";
+    float hungry_level=60;
+    String mode="happy";
+    public void disPlayInfo(){
+        System.out.println("The Name of animal is"+" "+name);
+        System.out.println("The age of "+ name +" is "+" "+age);
+        System.out.println("The type of "+ name +" is "+" "+type);
+    }
+    public void Eating(){
+        if (hungry_level>=60) {
+            System.out.println("Give the animal foods");}
+        else{
+            System.out.println("Don't Give the animal foods");}
+    }
+    public void Sleeping(){
+        System.out.println("This is the time for sleeping");
+    }
+    public void Playing(){
+        if (mode.equals("happy"))
+        System.out.println("animal is happy");
+        else if(mode.equals("Sad")){
+            System.out.println("animal is Sad");
+        }
+    }
+    public void Moving(String Move){
+        System.out.println("The animal is Moving"+" "+Move);}
+
+}
+
