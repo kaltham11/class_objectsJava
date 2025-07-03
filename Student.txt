@@ -1,0 +1,24 @@
+public class Student {
+    String name="Ahmed";
+    int age=25;
+    String currentCourse;
+    double gpa;
+    public void disPlayInfo(){
+        System.out.println("The Name of the Student is"+" "+ name);
+        System.out.println("The age of "+ name +" is "+" "+ age);
+        System.out.println("The GPA of "+ name +" is "+" "+ gpa);
+        System.out.println("The current Course of "+ name +" is "+" "+ currentCourse);
+    }
+    public void pass() {
+        if (gpa >= 2.5) {
+            System.out.println("Student is pass\t" + currentCourse);
+        }
+    }
+
+    public void fail() {
+        if (gpa <= 2.5) {
+            System.out.println("Student is fail\t" + currentCourse);
+        }
+    }
+
+}
